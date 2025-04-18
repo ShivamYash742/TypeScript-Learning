@@ -1,0 +1,14 @@
+{
+    "code-runner.executorMap": {
+        "typescript": "node --no-warnings=ExperimentalWarning $fileName",
+        "javascript": "node $fileName",
+        "python": "python $fileName",
+        "c": "gcc $fileName -o $fileName.out && ./$fileName.out",
+        "c++": "g++ $fileName -o $fileName.out && ./$fileName.out",
+        "java": "javac $fileName && java $fileName",
+        "kotlin": "kotlinc $fileName -include-runtime -d $fileName.jar && java -jar $fileName.jar",
+        "php": "php $fileName",
+        
+    },
+    "code-runner.runInTerminal": true
+} 

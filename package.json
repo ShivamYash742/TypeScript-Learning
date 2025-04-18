@@ -1,0 +1,20 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "description": "Learning Typescript",
+  "homepage": "https://github.com/ShivamYash742/TypeScript-Learning#readme",
+  "bugs": {
+    "url": "https://github.com/ShivamYash742/TypeScript-Learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivamYash742/TypeScript-Learning.git"
+  },
+  "license": "ISC",
+  "author": "Shivam Mishra",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning index.ts"
+  }
+}
